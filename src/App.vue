@@ -53,7 +53,7 @@ function enterPictureInPicture() {
 </script>
 
 <template>
-  <canvas id="canvas" width="800" height="480" ref="canvasEl"></canvas>
+  <canvas id="canvas" width="800" height="300" ref="canvasEl"></canvas>
   <video
     id="video"
     controls
