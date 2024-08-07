@@ -99,9 +99,9 @@ function enterPictureInPicture() {
   <button id="calibrateBtn" ref="permissionBtnEl">Calibrate</button>
   <button id="pipBtn" ref="pipBtnEl">PiP Now</button>
   <div ref="canvas">
-    <canvas id="canvas" width="800" height="300" ref="canvasEl"/>
+    <canvas id="canvas" width="800" height="300" ref="canvasEl" />
   </div>
-  <video id="video" controls muted autoplay ref="videoEl" style="height: 0"/>
+  <video id="video" controls muted autoplay ref="videoEl" style="height: 0" />
 </template>
 <style>
 #calibrateBtn {
@@ -109,6 +109,7 @@ function enterPictureInPicture() {
   top: 2em;
   left: 5em;
 }
+
 #pipBtn {
   position: fixed;
   top: 2em;
@@ -120,7 +121,7 @@ function enterPictureInPicture() {
   border: 10px solid black;
 }
 
-#canvas::before{
+#canvas::before {
   /* 右上角添加一个handler用于标记可拖动调整尺寸 */
   content: "";
   position: absolute;
